@@ -1,0 +1,212 @@
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Title</title>#}
+{#</head>#}
+{#<body>#}
+{#<form method="POST" action="{% url 'totalamount_view' %}">#}
+{#    {% csrf_token %}#}
+{##}
+{#    <h1>total amount contributed</h1>#}
+{##}
+{#<div class="mb-3">#}
+{#    <h2>year</h2>#}
+{#    <input type="radio" id="2018" name="years" value="2018">#}
+{#<label for="2018">2018 </label><br><br>#}
+{##}
+{#        <input type="radio" id="2019" name="years"  value="2019">#}
+{#<label for="2019">2019</label><br>#}
+{##}
+{#        <input type="radio" id="2020" name="years"  value="2020">#}
+{#<label for="2020">2020</label><br>#}
+{##}
+{#    <input type="radio" id="2021" name="years" value="2021">#}
+{#<label for="2021">2021</label><br><br>#}
+{##}
+{#        <input type="radio" id="2022" name="years"  value="2022">#}
+{#<label for="2022">2022</label><br>#}
+{##}
+{#    <input type="radio" id="2023" name="years"  value="2023">#}
+{#<label for="2023">2023</label><br>#}
+{#</div>#}
+{##}
+{#        <input type="submit" value="view">#}
+{#</form>#}
+{#</body>#}
+{#</html>#}
+
+
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Total Amount Contributed</title>#}
+{#    <style>#}
+{#        body {#}
+{#            background-image: url('background-image.jpg');#}
+{#            background-size: cover;#}
+{#            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;#}
+{#            color: #fff;#}
+{#            margin: 0;#}
+{#            padding: 0;#}
+{#        }#}
+{##}
+{#        form {#}
+{#            background-color: rgba(0, 0, 0, 0.6);#}
+{#            border-radius: 5px;#}
+{#            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);#}
+{#            margin: 20px auto;#}
+{#            max-width: 500px;#}
+{#            padding: 20px;#}
+{#        }#}
+{##}
+{#        h1 {#}
+{#            font-size: 36px;#}
+{#            text-align: center;#}
+{#            margin-top: 0;#}
+{#        }#}
+{##}
+{#        h2 {#}
+{#            font-size: 18px;#}
+{#            margin-bottom: 10px;#}
+{#        }#}
+{##}
+{#        label {#}
+{#            display: inline-block;#}
+{#            margin-right: 10px;#}
+{#            font-size: 16px;#}
+{#        }#}
+{##}
+{#        input[type="radio"] {#}
+{#            margin-right: 5px;#}
+{#            transform: scale(1.5);#}
+{#        }#}
+{##}
+{#        input[type="submit"] {#}
+{#            background-color: #f7c08a;#}
+{#            border: none;#}
+{#            color: #fff;#}
+{#            font-size: 18px;#}
+{#            padding: 10px 20px;#}
+{#            border-radius: 5px;#}
+{#            cursor: pointer;#}
+{#            margin-top: 20px;#}
+{#            display: block;#}
+{#            margin-left: auto;#}
+{#            margin-right: auto;#}
+{#        }#}
+{#    </style>#}
+{#</head>#}
+{#<body>#}
+{#    <form method="POST" action="{% url 'totalamount_view' %}">#}
+{#        {% csrf_token %}#}
+{#        <h1>Total Amount Contributed</h1>#}
+{#        <div class="mb-3">#}
+{#            <h2>Year</h2>#}
+{#            <label for="2018"><input type="radio" id="2018" name="years" value="2018">2018</label>#}
+{#            <br>#}
+{#            <label for="2019"><input type="radio" id="2019" name="years" value="2019">2019</label>#}
+{#            <br>#}
+{#            <label for="2020"><input type="radio" id="2020" name="years" value="2020">2020</label>#}
+{#            <br>#}
+{#            <label for="2021"><input type="radio" id="2021" name="years" value="2021">2021</label>#}
+{#            <br>#}
+{#            <label for="2022"><input type="radio" id="2022" name="years" value="2022">2022</label>#}
+{#            <br>#}
+{#            <label for="2023"><input type="radio" id="2023" name="years" value="2023">2023</label>#}
+{#            <br>#}
+{#        </div>#}
+{#        <input type="submit" value="View">#}
+{#    </form>#}
+{#</body>#}
+{#</html>#}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Total Amount Contributed</title>
+    <style>
+        body {
+            background-image: url('https://picsum.photos/1920/1080');
+            background-size: cover;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            margin: 20px auto;
+            max-width: 500px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+            transform: scale(1.5);
+        }
+
+        input[type="submit"] {
+            background-color: #f7c08a;
+            border: none;
+            color: #fff;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+<div align="center">
+    <form method="POST" action="{% url 'totalamount_view' %}">
+        {% csrf_token %}
+        <h1>Total Amount Contributed</h1>
+        <div class="mb-3">
+            <h2>Year</h2>
+            <label for="2018"><input type="radio" id="2018" name="years" value="2018">2018</label>
+            <br>
+            <label for="2019"><input type="radio" id="2019" name="years" value="2019">2019</label>
+            <br>
+            <label for="2020"><input type="radio" id="2020" name="years" value="2020">2020</label>
+            <br>
+            <label for="2021"><input type="radio" id="2021" name="years" value="2021">2021</label>
+            <br>
+            <label for="2022"><input type="radio" id="2022" name="years" value="2022">2022</label>
+            <br>
+            <label for="2023"><input type="radio" id="2023" name="years" value="2023">2023</label>
+            <br>
+        </div><br><br>
+        <button type="submit">View</button>
+    </form>
+    </div>
+</body>
+</html>

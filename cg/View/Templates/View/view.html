@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body background="https://images.unsplash.com/photo-1479920252409-6e3d8e8d4866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" style="background-repeat: no-repeat;background-size: cover">
+<div class="dropdown mt-5" style="display: flex;flex-direction:column;justify-content:center;">
+<div style="width:20%;position: absolute;top:0;left:0">
+    {% for msg in messages %}
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    {{ msg }}
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+
+    {% endfor %}
+</div>
+<div>
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="display: block;margin:auto;">
+    Dropdown button
+  </button>
+
+    <ul class="dropdown-menu" style="background: transparent;text-align: center;">
+    <li><a class="dropdown-item" href="{% url 'f3_1_1' %}">3.1.1</a></li>
+    <li><a class="dropdown-item" href="{% url 'f3_2_2' %}">3.2.2</a></li>
+    <li><a class="dropdown-item" href="{% url 'f3_3_1' %}">3.3.1</a></li><li>
+    <li><a class="dropdown-item" href="{% url 'f3_3_2' %}">3.3.2</a></li>
+    <li><a class="dropdown-item" href="{% url 'f3_4_3' %}">3.4.3</a></li>
+    <li><a class="dropdown-item" href="{% url 'f3_5_1' %}">3.5.1</a></li>
+    <li><a class="dropdown-item" href="{% url 'citations' %}">Citations</a></li>
+  </ul>
+</div>
+</div>
+<div class="details" style="margin:220px auto 20px auto;width:1200px;background:linear-gradient(360deg,rgba(185, 189, 196,0.5),rgba(185, 189, 196,0.5));box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;">
+       <ul style="list-style-type: none;">
+           <li>3.1.1:Grants received from Government and non-governmental agencies for research projects, endowments in the institution during the last five years (INR in Lakhs)</li><br>
+           <li>3.2.2:Number of workshops/seminars/Conference including programs conducted on Research Methodology, Intellectual Property Rights (IPR) and entrepreneurship during the last five years</li><br>
+           <li>3.3.1:Number of research papers published per teacher in the Journals notified on UGC website during the last five years</li><br>
+           <li>3.3.2:Number of books and chapters in edited volumes/books published and papers  published in national/ international conference proceedings per teacher during last five year</li><br>
+           <li>3.4.3:Number of extension and outreached Programmes conducted by the institution through NSS/ NCC etc., (including the programmes such as Swachh Bharat, AIDS awareness, Gender issues etc. and/or those organised in collaboration with industry, community and NGOs during the last five years</li><br>
+           <li>3.5.1:Number of MoUs, collaborations / linkages for Faculty exchange, Student exchange, internship, field project, on-the-job training, research and other academic activities during the last five years</li><br>
+           <li>Citations</li>
+       </ul>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<div>
+    <a class="btn btn-primary" href="{% url 'viewmain' %}" role="button" style="display: block;margin:5px auto 10px auto;height:38px;width:120px">Go Back</a>
+</div>
+</body>
+</html>

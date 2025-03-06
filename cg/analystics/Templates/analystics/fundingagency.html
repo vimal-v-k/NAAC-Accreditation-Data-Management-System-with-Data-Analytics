@@ -1,0 +1,156 @@
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Title</title>#}
+{#</head>#}
+{#<body>#}
+{#<div>#}
+{#<form method="POST" action="{% url 'fundingview' %}">#}
+{#    {% csrf_token %}#}
+{#<div class="mb-3">#}
+{##}
+{#    <h2>search by</h2>#}
+{#    <input type="radio" id="finantial" name="yeartypes" value="finantial">#}
+{#<label for="finantial">Finantial year </label><br><br>#}
+{#        <input type="radio" id="academic" name="yeartypes"  value="academic">#}
+{#<label for="academic">academic year</label><br>#}
+{#</div>#}
+{##}
+{##}
+{#<div class="mb-3">#}
+{#    <h2>year</h2>#}
+{#    <input type="radio" id="2018" name="years" value="2018">#}
+{#<label for="2018">2018 </label><br><br>#}
+{##}
+{#        <input type="radio" id="2019" name="years"  value="2019">#}
+{#<label for="2019">2019</label><br>#}
+{##}
+{#        <input type="radio" id="2020" name="years"  value="2020">#}
+{#<label for="2020">2020</label><br>#}
+{##}
+{#    <input type="radio" id="2021" name="years" value="2021">#}
+{#<label for="2021">2021</label><br><br>#}
+{##}
+{#        <input type="radio" id="2022" name="years"  value="2022">#}
+{#<label for="2022">2022</label><br>#}
+{##}
+{#    <input type="radio" id="2023" name="years"  value="2023">#}
+{#<label for="2023">2023</label><br>#}
+{#</div>#}
+{##}
+{##}
+{#        <input type="submit" value="view">#}
+{##}
+{#</form>#}
+{#</div>#}
+{#</body>#}
+{#</html>#}
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+        body {
+            background-image: url('https://picsum.photos/1920/1080');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            color: #fff;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        label {
+            font-size: 18px;
+            margin-left: 5px;
+            color: #444;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #5bc0de;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #31b0d5;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form method="POST" action="{% url 'fundingview' %}">
+        {% csrf_token %}
+        <div class="mb-3">
+            <h2>Search By</h2>
+            <input type="radio" id="financial" name="yeartypes" value="financial">
+            <label for="financial">Financial Year</label><br>
+            <input type="radio" id="academic" name="yeartypes" value="academic">
+            <label for="academic">Academic Year</label><br>
+        </div>
+
+        <div class="mb-3">
+            <h2>Year</h2>
+            <input type="radio" id="2018" name="years" value="2018">
+            <label for="2018">2018</label><br>
+            <input type="radio" id="2019" name="years" value="2019">
+            <label for="2019">2019</label><br>
+            <input type="radio" id="2020" name="years" value="2020">
+            <label for="2020">2020</label><br>
+            <input type="radio" id="2021" name="years" value="2021">
+            <label for="2021">2021</label><br>
+            <input type="radio" id="2022" name="years" value="2022">
+            <label for="2022">2022</label><br>
+            <input type="radio" id="2023" name="years" value="2023">
+            <label for="2023">2023</label><br>
+        </div>
+        <input type="submit" value="View">
+    </form>
+</div>
+</body>
+</html>
+
+
+
+
+

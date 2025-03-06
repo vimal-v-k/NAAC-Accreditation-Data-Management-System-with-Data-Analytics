@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Citations</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container mt-5">
+<form method="POST">
+    {% csrf_token %}
+    <div class="mb-3">
+  <label for="Name" class="form-label">Name</label>
+  <input type="text" class="form-control" id="Name" name="Namee">
+</div>
+       <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" name="Email" id="Email">
+    </div>
+<div class="mb-3">
+  <label for="citations" class="form-label">Citations</label>
+  <input type="number" class="form-control" id="citations" name="citations" value="Total number of citations">
+</div>
+<div class="mb-3">
+  <label for="h-index" class="form-label">h-index</label>
+  <input type="number" class="form-control" id="h-index" name="h-index" value="Total h-index">
+</div>
+<div class="mb-3">
+  <label for="i10-index" class="form-label">i10-index</label>
+  <input type="number" class="form-control" id="i10-index" name="i10-index" value="Total i10-index">
+</div>
+<div class="mb-3">
+  <label for="Profile Link" class="form-label">Profile Link</label>
+  <input type="url" class="form-control" id="profile_link" name="profile_link" value="Google Scholar Profile Link">
+</div>
+    <div class="mb-3">
+        <h3>Department</h3>
+        <input type="radio" id="Automobile Engineering" name="radiobuttonc"  value="Automobile Engineering">
+        <label for="html">Automobile Engineering</label><br>
+
+    <input type="radio" id="Basic Science and Humanities" name="radiobuttonc" value="Basic Science and Humanities">
+    <label for="Basic Science and Humanities">Basic Science and Humanities</label><br>
+
+    <input type="radio" id="Civil Engineering" name="radiobuttonc" value="Civil Engineering">
+        <label for="Civil Engineering">Civil Engineering</label><br>
+
+        <input type="radio" id="Computer Science & Engineering" name="radiobuttonc"  value="Computer Science & Engineering">
+     <label for="Computer Science & Engineering">Computer Science & Engineering</label><br>
+
+    <input type="radio" id="Electrical & Electronics Engineering" name="radiobuttonc" value="Electrical & Electronics Engineering">
+        <label for="Electrical & Electronics Engineering">Electrical & Electronics Engineering</label><br>
+
+        <input type="radio" id="Electronics & Communication Engineering" name="radiobuttonc"  value="Electronics & Communication Engineering">
+        <label for="Electronics & Communication Engineering">Electronics & Communication Engineering</label><br>
+
+    <input type="radio" id="Mechanical Engineering" name="radiobuttonc"  value="Mechanical Engineering">
+    <label for="Mechanical Engineering">Mechanical Engineering</label>
+
+</div>
+    <div class="mb-3">
+    <h2>year</h2>
+    <input type="radio" id="2018" name="yearsc" value="2018">
+<label for="2018">2018 </label><br><br>
+
+        <input type="radio" id="2019" name="yearsc"  value="2019">
+<label for="2019">2019</label><br>
+
+        <input type="radio" id="2020" name="yearsc"  value="2020">
+<label for="2020">2020</label><br>
+
+    <input type="radio" id="2021" name="yearsc" value="2021">
+<label for="2021">2021</label><br><br>
+
+        <input type="radio" id="2022" name="yearsc"  value="2022">
+<label for="2022">2022</label><br>
+
+    <input type="radio" id="2023" name="yearsc"  value="2023">
+<label for="2023">2023</label><br>
+</div>
+    <div class="col-md-12 text-center mb-3">
+    <button type="submit" class="btn btn-primary">Upload</button>
+    <a class="btn btn-primary" href="{% url 'view' %}" role="button">Go Back</a>
+</div>
+</form>
+</div>
+</body>
+</html>

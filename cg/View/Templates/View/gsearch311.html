@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>3_1_1 Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+       <style>
+      table {
+         border-collapse: collapse;
+      }
+      th, td {
+         border: 1px solid black;
+         padding: 8px;
+      }
+   </style>
+</head>
+<body>
+<h1>SEARCH RESULTS</h1>
+<div>
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name_of_the_research_project_endowment</th>
+      <th>Name_of_the_Principal_Investigator_Co_investigator</th>
+      <th>Department_of_Principal_Investigator</th>
+      <th>Year_of_Award</th>
+      <th>Amount_Sanctioned</th>
+      <th>Duration_of_the_project</th>
+      <th>Name_of_the_Funding_Agency</th>
+      <th>Government_non_Government</th>
+        <th>Options</th>
+    </tr>
+  </thead>
+    {% for row in sg311 %}
+      <tr>
+        <td>{{ row.id }}</td>
+        <td>{{ row.Name_of_the_research_project_endowment }}</td>
+        <td>{{ row.Name_of_the_Principal_Investigator_Co_investigator }}</td>
+        <td>{{ row.Department_of_Principal_Investigator }}</td>
+        <td>{{ row.Year_of_Award }}</td>
+        <td>{{ row.Amount_Sanctioned }}</td>
+        <td>{{ row.Duration_of_the_project }}</td>
+        <td>{{ row.Name_of_the_Funding_Agency }}</td>
+        <td>{{ row.Government_non_Government }}</td>
+      <td>
+          <a href="{% url '311edit' id=row.id %}" class="btn btn-success" role="button" >edit</a><br>
+<br><a href="{% url 'del311' id=row.id %}" class="btn btn-danger" role="button" >delete</a>
+      </td>
+
+      </td>
+      </tr>
+    {% endfor %}
+</table>
+</div>
+<div style="display:flex; justify-content:flex-end;">
+</div>
+<div style="display: flex; justify-content: center;">
+    <a class="btn btn-primary" href="{% url '311details' %}" role="button">Go Back</a>
+</div>
+</body>
+</html>

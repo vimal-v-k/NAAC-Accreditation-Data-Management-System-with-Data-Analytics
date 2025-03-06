@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/View/models.py" line="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="851792c8-a759-4213-b149-d8cd7693c326" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Searc</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/View/Templates/View/fuck.html" />
+        <option value="$PROJECT_DIR$/Analysis/Templates/Analysis/Dashboard.html" />
+        <option value="$PROJECT_DIR$/Analysis/views.py" />
+        <option value="$PROJECT_DIR$/Analysis/anly_urls.py" />
+        <option value="$PROJECT_DIR$/Analytics/Templates/Analytics/piechaet2018.html" />
+        <option value="$PROJECT_DIR$/Analytics/Templates/Analytics/pie2018.html" />
+        <option value="$PROJECT_DIR$/Analytics/aurls.py" />
+        <option value="$PROJECT_DIR$/Register/views.py" />
+        <option value="$PROJECT_DIR$/Analytics/Templates/Analytics/Dashboard.html" />
+        <option value="$PROJECT_DIR$/Analytics/analytics_urls.py" />
+        <option value="$PROJECT_DIR$/Analytics/views.py" />
+        <option value="$PROJECT_DIR$/static/base/css/login.css" />
+        <option value="$PROJECT_DIR$/Register/Templates/Register/register.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/viewmain.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/3._1_1form.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/3_2_2form.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/3_3_1form.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/3.5.1.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/3_3_2form.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/3.4.3.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/viewdetails.html" />
+        <option value="$PROJECT_DIR$/Login/static/base/css/login.css" />
+        <option value="$PROJECT_DIR$/Login/Templates/Login/login.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/311details.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/322details.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/331details.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/332details.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/343details.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/351details.html" />
+        <option value="$PROJECT_DIR$/analystics/models.py" />
+        <option value="$PROJECT_DIR$/analystics/Templates/analystics/analyticspage.html" />
+        <option value="$PROJECT_DIR$/View/view_urls.py" />
+        <option value="$PROJECT_DIR$/View/Templates/View/view.html" />
+        <option value="$PROJECT_DIR$/View/Templates/View/Citations.html" />
+        <option value="$PROJECT_DIR$/Register/models.py" />
+        <option value="$PROJECT_DIR$/View/models.py" />
+        <option value="$PROJECT_DIR$/analystics/Templates/analystics/department.html" />
+        <option value="$PROJECT_DIR$/analystics/Templates/analystics/fundingagency.html" />
+        <option value="$PROJECT_DIR$/analystics/Templates/analystics/totalamount.html" />
+        <option value="$PROJECT_DIR$/analystics/Templates/analystics/totalamountview.html" />
+        <option value="$PROJECT_DIR$/analystics/Templates/analystics/citations.html" />
+        <option value="$PROJECT_DIR$/Register/admin.py" />
+        <option value="$PROJECT_DIR$/View/admin.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/contrib/admin/__init__.py" />
+        <option value="$PROJECT_DIR$/View/views.py" />
+        <option value="$PROJECT_DIR$/cg/views.py" />
+        <option value="$PROJECT_DIR$/cg/urls.py" />
+        <option value="$PROJECT_DIR$/analystics/views.py" />
+        <option value="$PROJECT_DIR$/analystics/analytics_urls.py" />
+        <option value="$PROJECT_DIR$/analystics/admin.py" />
+        <option value="$PROJECT_DIR$/cg/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1935" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cg" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Music/gt" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\azefr\Desktop\gt\cg\Login" />
+      <recent name="C:\Users\azefr\Desktop\gt\cg\cg" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cg" type="Python.DjangoServer" factoryName="Django server">
+      <module name="cg" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="cg.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\azefr\PycharmProjects\untitled\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="851792c8-a759-4213-b149-d8cd7693c326" name="Default Changelist" comment="" />
+      <created>1675698798313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675698798313</updated>
+      <workItem from="1675698799605" duration="6502000" />
+      <workItem from="1675741424129" duration="7081000" />
+      <workItem from="1675749100604" duration="3769000" />
+      <workItem from="1675783537057" duration="168000" />
+      <workItem from="1675783748516" duration="1360000" />
+      <workItem from="1675785458339" duration="8706000" />
+      <workItem from="1675834043585" duration="238000" />
+      <workItem from="1675834841997" duration="26871000" />
+      <workItem from="1675930358884" duration="5200000" />
+      <workItem from="1676265456048" duration="793000" />
+      <workItem from="1676266975170" duration="30000" />
+      <workItem from="1676267007030" duration="3210000" />
+      <workItem from="1676347575453" duration="16557000" />
+      <workItem from="1676519894799" duration="1730000" />
+      <workItem from="1676522497768" duration="172000" />
+      <workItem from="1676523847016" duration="3641000" />
+      <workItem from="1676534377186" duration="608000" />
+      <workItem from="1676604609978" duration="12634000" />
+      <workItem from="1676966026370" duration="3222000" />
+      <workItem from="1677043454628" duration="4543000" />
+      <workItem from="1677212377383" duration="12296000" />
+      <workItem from="1677471185238" duration="404000" />
+      <workItem from="1677472296675" duration="488000" />
+      <workItem from="1677474566538" duration="2076000" />
+      <workItem from="1677557103177" duration="2138000" />
+      <workItem from="1677559274356" duration="10660000" />
+      <workItem from="1677574901147" duration="11109000" />
+      <workItem from="1677659639204" duration="20000" />
+      <workItem from="1677661061099" duration="79000" />
+      <workItem from="1677661215490" duration="1345000" />
+      <workItem from="1677664539922" duration="50000" />
+      <workItem from="1677664635013" duration="60000" />
+      <workItem from="1677664706318" duration="3000" />
+      <workItem from="1677664718879" duration="12000" />
+      <workItem from="1677729405013" duration="593000" />
+      <workItem from="1677735213980" duration="23000" />
+      <workItem from="1677748554456" duration="1001000" />
+      <workItem from="1678088564217" duration="1222000" />
+      <workItem from="1678090562278" duration="595000" />
+      <workItem from="1678163533117" duration="124000" />
+      <workItem from="1678163874874" duration="1776000" />
+      <workItem from="1678165690754" duration="1529000" />
+      <workItem from="1678167272817" duration="1785000" />
+      <workItem from="1678169126260" duration="1358000" />
+      <workItem from="1678170515338" duration="595000" />
+      <workItem from="1678419897891" duration="1780000" />
+      <workItem from="1678421716420" duration="1802000" />
+      <workItem from="1678423663447" duration="1782000" />
+      <workItem from="1678425487953" duration="1786000" />
+      <workItem from="1678427317798" duration="848000" />
+      <workItem from="1678434337262" duration="1238000" />
+      <workItem from="1678435605108" duration="2336000" />
+      <workItem from="1678440515537" duration="1823000" />
+      <workItem from="1678442380815" duration="711000" />
+      <workItem from="1678510233538" duration="1659000" />
+      <workItem from="1678512904457" duration="1779000" />
+      <workItem from="1678514721489" duration="1778000" />
+      <workItem from="1678516540727" duration="1777000" />
+      <workItem from="1678518356358" duration="1819000" />
+      <workItem from="1678520213113" duration="1405000" />
+      <workItem from="1678529707765" duration="1879000" />
+      <workItem from="1678531643372" duration="753000" />
+      <workItem from="1678534523879" duration="1694000" />
+      <workItem from="1678536254186" duration="258000" />
+      <workItem from="1678536766786" duration="490000" />
+      <workItem from="1678679594649" duration="596000" />
+      <workItem from="1678685193184" duration="598000" />
+      <workItem from="1678687227751" duration="1552000" />
+      <workItem from="1678689250025" duration="1530000" />
+      <workItem from="1678694094733" duration="548000" />
+      <workItem from="1678694671534" duration="1689000" />
+      <workItem from="1678697940645" duration="1441000" />
+      <workItem from="1678701513879" duration="65000" />
+      <workItem from="1678765441942" duration="1256000" />
+      <workItem from="1678767861204" duration="1916000" />
+      <workItem from="1678769815712" duration="2050000" />
+      <workItem from="1678771909207" duration="1669000" />
+      <workItem from="1678775247461" duration="1779000" />
+      <workItem from="1678777063817" duration="282000" />
+      <workItem from="1678780058353" duration="1778000" />
+      <workItem from="1678782023932" duration="1011000" />
+      <workItem from="1678783296630" duration="1116000" />
+      <workItem from="1678812422157" duration="54000" />
+      <workItem from="1678851996262" duration="481000" />
+      <workItem from="1678852502716" duration="1774000" />
+      <workItem from="1678854316836" duration="1780000" />
+      <workItem from="1678856128741" duration="1794000" />
+      <workItem from="1678857965361" duration="1762000" />
+      <workItem from="1678859843195" duration="1556000" />
+      <workItem from="1678872897093" duration="317000" />
+      <workItem from="1678936950334" duration="1363000" />
+      <workItem from="1678938344158" duration="1804000" />
+      <workItem from="1678940185322" duration="1779000" />
+      <workItem from="1678942005192" duration="1785000" />
+      <workItem from="1678943834219" duration="211000" />
+      <workItem from="1680242530869" duration="1470000" />
+      <workItem from="1680677255895" duration="1784000" />
+      <workItem from="1680679080411" duration="1775000" />
+      <workItem from="1680680893395" duration="1790000" />
+      <workItem from="1680682719536" duration="326000" />
+      <workItem from="1680683822976" duration="1772000" />
+      <workItem from="1680685637931" duration="1068000" />
+      <workItem from="1680686883262" duration="153000" />
+      <workItem from="1680687058786" duration="26000" />
+      <workItem from="1680687699159" duration="53000" />
+      <workItem from="1680758808165" duration="139000" />
+      <workItem from="1680759133561" duration="1336000" />
+      <workItem from="1680760982176" duration="318000" />
+      <workItem from="1680761327449" duration="1031000" />
+      <workItem from="1680763260369" duration="703000" />
+      <workItem from="1680932967962" duration="1753000" />
+      <workItem from="1680934764790" duration="1435000" />
+      <workItem from="1680936281929" duration="1759000" />
+      <workItem from="1680938087716" duration="1778000" />
+      <workItem from="1680939900823" duration="1779000" />
+      <workItem from="1680941714267" duration="1788000" />
+      <workItem from="1680943536893" duration="1807000" />
+      <workItem from="1680945378519" duration="1070000" />
+      <workItem from="1680948446254" duration="1778000" />
+      <workItem from="1680950262938" duration="1778000" />
+      <workItem from="1680952080497" duration="1012000" />
+      <workItem from="1680969355265" duration="50000" />
+      <workItem from="1681097763369" duration="622000" />
+      <workItem from="1681098431701" duration="775000" />
+      <workItem from="1681099237506" duration="745000" />
+      <workItem from="1681100162403" duration="632000" />
+      <workItem from="1681101203200" duration="1237000" />
+      <workItem from="1681103773615" duration="1254000" />
+      <workItem from="1681106085177" duration="1263000" />
+      <workItem from="1681109089760" duration="964000" />
+      <workItem from="1681115165817" duration="1829000" />
+      <workItem from="1681117086279" duration="1779000" />
+      <workItem from="1681200914193" duration="596000" />
+      <workItem from="1681270515093" duration="1784000" />
+      <workItem from="1681272350870" duration="1792000" />
+      <workItem from="1681288665064" duration="1775000" />
+      <workItem from="1681290485502" duration="1774000" />
+      <workItem from="1681292304508" duration="1447000" />
+      <workItem from="1681751481221" duration="1156000" />
+      <workItem from="1681753390277" duration="1781000" />
+      <workItem from="1681788769517" duration="611000" />
+      <workItem from="1681790608887" duration="10000" />
+      <workItem from="1681790648219" duration="1189000" />
+      <workItem from="1681796996303" duration="600000" />
+      <workItem from="1681800128280" duration="625000" />
+      <workItem from="1681809691306" duration="16000" />
+      <workItem from="1681809747353" duration="545000" />
+      <workItem from="1681874852506" duration="603000" />
+      <workItem from="1681875967040" duration="1142000" />
+      <workItem from="1681878039789" duration="606000" />
+      <workItem from="1681890842703" duration="208000" />
+      <workItem from="1682310192509" duration="1671000" />
+      <workItem from="1682311937246" duration="1778000" />
+      <workItem from="1682313761032" duration="1463000" />
+      <workItem from="1682323588054" duration="504000" />
+      <workItem from="1682324796946" duration="306000" />
+      <workItem from="1682325139134" duration="1100000" />
+      <workItem from="1682326715496" duration="594000" />
+      <workItem from="1682350650170" duration="1780000" />
+      <workItem from="1682352463758" duration="1782000" />
+      <workItem from="1682354284260" duration="1778000" />
+      <workItem from="1682356098656" duration="1790000" />
+      <workItem from="1682357924262" duration="1789000" />
+      <workItem from="1682359751805" duration="356000" />
+      <workItem from="1682360183514" duration="21000" />
+      <workItem from="1685376686120" duration="29000" />
+      <workItem from="1685376736498" duration="168000" />
+      <workItem from="1685377022017" duration="19000" />
+      <workItem from="1685377379116" duration="30000" />
+      <workItem from="1687705859996" duration="29000" />
+      <workItem from="1687705974014" duration="35000" />
+      <workItem from="1701685244703" duration="81000" />
+      <workItem from="1701685393176" duration="37000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="303140000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1048" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.42430705" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798658" weight="0.32786885" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32681563" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50201344" side_tool="true" weight="0.3282123" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/View/Templates/View/331details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Templates/View/3.5.1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="68" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Templates/View/viewdetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="10" column="114" lean-forward="true" selection-start-line="10" selection-start-column="114" selection-end-line="10" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Templates/View/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/Templates/Register/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Templates/View/3._1_1form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="51" lean-forward="true" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analystics/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Templates/View/3_3_1form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/Templates/View/Citations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="62" column="46" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analystics/Templates/analystics/totalamount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="133" column="66" selection-start-line="133" selection-start-column="66" selection-end-line="133" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analystics/Templates/analystics/totalamountview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analystics/Templates/analystics/citations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analystics/Templates/analystics/fundingagency.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="61" column="66" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analystics/Templates/analystics/department.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analystics/Templates/analystics/analyticspage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/contrib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/contrib/admin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/view_urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/static/base/css/login.css" />
+    <entry file="file://$PROJECT_DIR$/Login/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="e#1#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/reg_urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cg/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/log_urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cg/views.py" />
+    <entry file="file://$PROJECT_DIR$/analystics/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="254" lean-forward="true" selection-start-line="254" selection-end-line="254" />
+          <folding>
+            <element signature="e#1#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analystics/analytics_urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analystics/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analystics/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analystics/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cg/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#626#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cg/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#218#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cg/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="e#304#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

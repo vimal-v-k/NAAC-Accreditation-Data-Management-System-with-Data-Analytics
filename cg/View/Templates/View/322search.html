@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>3_2_2 Data</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+       <style>
+      table {
+         border-collapse: collapse;
+      }
+      th, td {
+         border: 1px solid black;
+         padding: 8px;
+      }
+   </style>
+</head>
+<body>
+    <h1>Details between {{ start_date }} and {{ end_date }}</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Name_of_the_workshop_seminar_conference</th>
+      <th>Number_of_Participants</th>
+      <th>Date_From</th>
+      <th>Date_To</th>
+      <th>Link_to_the_Activity_report_on_the_website</th>
+
+    </tr>
+  </thead>
+    {% for row in 322projects %}
+      <tr>
+        <td>{{ row.Year }}</td>
+        <td>{{ row.Name_of_the_workshop_seminar_conference }}</td>
+        <td>{{ row.Number_of_Participants }}</td>
+        <td>{{ row.Date_From }}</td>
+        <td>{{ row.Date_To }}</td>
+        <td><a href="{{ row.Link_to_the_Activity_report_on_the_website }}">{{ row.Link_to_the_Activity_report_on_the_website }}</a></td>
+      </tr>
+    {% endfor %}
+<a href="{% url '332exportfilter' %}" class="btn btn-primary" role="button" >Download</a>
+</table>
+</body>
+</html>

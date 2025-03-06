@@ -1,0 +1,54 @@
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#    <title>Total Amount Sanctioned</title>#}
+{#</head>#}
+{#<body>#}
+{#    <h1>Total Amount Sanctioned for {{ year }}</h1>#}
+{#    <p>The total amount sanctioned for {{ year }} is {{ total_amount }}.</p>#}
+{#</body>#}
+{#</html>#}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Total Amount Sanctioned</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.5rem;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Total Amount Sanctioned for {{ year }}</h1>
+        <p>The total amount sanctioned for {{ year }} is {{ total_amount }}.</p>
+    </div>
+</body>
+</html>

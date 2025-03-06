@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+<div style="text-align: center;">
+{% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}style="color: red">{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+     </div>
+<div class="container mt-5">
+<form method="POST">
+    {% csrf_token %}
+<h3  style=" text-shadow: 1px 1px 1px #000; ">3.2.2:Number of workshops/seminars/Conference including programs conducted on Research Methodology, Intellectual Property Rights (IPR) and entrepreneurship during the last five years</h3>
+
+
+<div class="mb-3">
+  <label for="Year" class="form-label">Year</label>
+  <input type="date" class="form-control" id="Year" name="Year">
+</div>
+
+<div class="mb-3">
+  <label for="Name of the workshop/ seminar/ conference" class="form-label">Name of the workshop/ seminar/ conference</label>
+  <input type="text" class="form-control" id="Name of the workshop/ seminar/ conference" name="Name_of_the_workshop_seminar_conference">
+</div>
+
+<div class="mb-3">
+  <label for="Number of Participants" class="form-label">Number of Participants</label>
+  <input type="number" class="form-control" id="Number of Participants" name="Number_of_Participants">
+</div>
+
+<div class="mb-3">
+  <label for="Date From" class="form-label">Date From </label>
+  <input type="date" class="form-control" id="Date From" name="Date_From">
+    <label for="Date To" class="form-label">Date To</label>
+    <input type="date" class="form-control" id="Date To" name="Date_To">
+</div>
+
+    <div class="mb-3">
+  <label for="Link to the Activity report on the website" class="form-label">Link to the Activity report on the website</label>
+  <input type="url" class="form-control" id="Link to the Activity report on the website" name="Link_to_the_Activity_report_on_the_website">
+</div>
+
+    <div class="mb-3">
+    <input type="radio" id="Research Methodology" name="radiobutton322" value="Research Methodology">
+<label for="html">Research Methodology</label><br>
+        <input type="radio" id="Intellectual Property Rights (IPR)" name="radiobutton322"  value="Intellectual Property Rights (IPR)">
+<label for="html">Intellectual Property Rights (IPR)</label><br>
+            <input type="radio" id="Entrepreneurship" name="radiobutton322"  value="Entrepreneurship">
+<label for="html">Entrepreneurship</label><br>
+</div>
+
+<div class="col-md-12 text-center">
+    <button type="submit" class="btn btn-primary">Upload</button>
+    <a class="btn btn-primary" href="{% url 'view' %}" role="button">Go Back</a>
+</div>
+    </form>
+
+</div>
+
+</body>
+</html>

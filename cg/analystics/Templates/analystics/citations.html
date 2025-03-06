@@ -1,0 +1,178 @@
+{#<!DOCTYPE html>#}
+{##}
+{#<head>#}
+{#	<title>Search Citations by Name</title>#}
+{#</head>#}
+{#<body>#}
+{#	<h1>Search Citations by Name</h1>#}
+{#	<form method="GET" action="{% url 'citations_by_name' %}">#}
+{#		<label for="name">Name:</label>#}
+{#		<input type="text" id="name" name="name">#}
+{#		<button type="submit">Search</button>#}
+{#	</form>#}
+{#</body>#}
+{#</html>#}
+{##}
+{##}
+{##}
+
+
+
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#<head>#}
+{#	<meta charset="UTF-8">#}
+{#	<meta name="viewport" content="width=device-width, initial-scale=1.0">#}
+{#	<title>Search Citations by Name</title>#}
+{#	<style>#}
+{#        body {#}
+{#  background-image: url("https://picsum.photos/1920/1080");#}
+{#  background-size: cover;#}
+{#  background-position: center;#}
+{#}#}
+{##}
+{#		body {#}
+{#			background-color: #f5f5f5;#}
+{#			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;#}
+{#			font-size: 18px;#}
+{#			color: #333;#}
+{#		}#}
+{##}
+{#		h1 {#}
+{#			font-size: 36px;#}
+{#			text-align: center;#}
+{#			margin-top: 50px;#}
+{#			margin-bottom: 30px;#}
+{#			color: #333;#}
+{#			text-transform: uppercase;#}
+{#		}#}
+{##}
+{#		form {#}
+{#			background-color: #fff;#}
+{#			border-radius: 5px;#}
+{#			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);#}
+{#			padding: 20px;#}
+{#			margin: 0 auto;#}
+{#			max-width: 500px;#}
+{#		}#}
+{##}
+{#		label {#}
+{#			display: block;#}
+{#			margin-bottom: 10px;#}
+{#			font-size: 18px;#}
+{#			color: #333;#}
+{#			text-transform: uppercase;#}
+{#		}#}
+{##}
+{#		input[type="text"] {#}
+{#			padding: 10px;#}
+{#			font-size: 16px;#}
+{#			border-radius: 5px;#}
+{#			border: 2px solid #ccc;#}
+{#			width: 100%;#}
+{#			margin-bottom: 20px;#}
+{#		}#}
+{##}
+{#		button[type="submit"] {#}
+{#			background-color: #333;#}
+{#			border: none;#}
+{#			color: #fff;#}
+{#			font-size: 18px;#}
+{#			padding: 10px 20px;#}
+{#			border-radius: 5px;#}
+{#			cursor: pointer;#}
+{#			transition: all 0.3s ease-in-out;#}
+{#			text-transform: uppercase;#}
+{#		}#}
+{##}
+{#		button[type="submit"]:hover {#}
+{#			background-color: #222;#}
+{#		}#}
+{#	</style>#}
+{#</head>#}
+{#<body>#}
+{#	<h1>Search Citations by Name</h1>#}
+{#	<form method="GET" action="{% url 'citations_by_name' %}">#}
+{#		<label for="name">Name:</label>#}
+{#		<input type="text" id="name" name="name">#}
+{#		<button type="submit">Search</button>#}
+{#	</form>#}
+{#</body>#}
+{#</html>#}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Search Citations by Name</title>
+	<style>
+        body {
+            background-image: url("https://picsum.photos/1920/1080");
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            color: rgba(255, 255, 255, 0.9);
+            text-transform: uppercase;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 500px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: rgba(0, 0, 0, 0.9);
+            text-transform: uppercase;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 2px solid rgba(0, 0, 0, 0.5);
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        button[type="submit"] {
+            background-color: rgba(0, 0, 0, 0.9);
+            border: none;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            text-transform: uppercase;
+        }
+
+        button[type="submit"]:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+	</style>
+</head>
+<body>
+	<h1>Search Citations by Name</h1>
+	<form method="GET" action="{% url 'citations_by_name' %}">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name">
+		<button type="submit">Search</button>
+	</form>
+</body>
+</html>

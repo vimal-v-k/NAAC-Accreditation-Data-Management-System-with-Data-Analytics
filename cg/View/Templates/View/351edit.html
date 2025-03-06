@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3.5.1. Number of MoUs, collaborations / linkages for Faculty exchange, Student exchange, internship, field project, on-the-job training, research and other academic activities during the last five years</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+{% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+</div>
+
+<div class="container mt-5">
+<form method="POST">
+        <input type="hidden" name="id" id="id" value="{{ d351.id }}">
+
+    {% csrf_token %}
+
+    <div class="mb-3">
+  <label for="Name of the MoU / Collaboration / linkage" class="form-label">Name of the MoU / Collaboration / linkage</label>
+  <input type="text" class="form-control" id="Name of the MoU / Collaboration / linkage" name="Name_of_the_MoU_Collaboration_linkage" value="{{ d351.Name_of_the_MoU_Collaboration_linkage }}">
+</div>
+
+  <div class="mb-3">
+  <label for="Name of the collaborating agency / institution / industry / corporate house with whom the MoU / collaboration / linkage is made, with contact details">Name of the collaborating agency / institution / industry / corporate house with whom the MoU / collaboration / linkage is made, with contact details</label>
+  <input type="text" class="form-control" id="Name of the collaborating agency / institution / industry / corporate house with whom the MoU / collaboration / linkage is made, with contact details" name="Name_of_the_collaborating_agency_institution_industry_corporate_house_with_whom_the_MoU_collaboration_linkage_is_made_with_contact_details" value="{{ d351.Name_of_the_collaborating_agency_institution_industry_corporate_house_with_whom_the_MoU_collaboration_linkage_is_made_with_contact_details }}">
+</div>
+
+ {{ d351.Year_of_signing_MoU_collaboration_linkage }}
+
+     <div class="mb-3">
+  <label for="Year of signing MoU / collaboration / linkage" class="form-label">Year of signing MoU / collaboration / linkage</label>
+  <input type="date" class="form-control" id="Year of signing MoU / collaboration / linkage" name="Year_of_signing_MoU_collaboration_linkage" value="{{ d351.Year_of_signing_MoU_collaboration_linkage|date:'Y-m-d' }}">
+</div>
+
+ <div class="mb-3">
+    <h3>Duration of MoU / collaboration / linkage</h3>
+  <input type="radio" name="radiobutton3_5_1" value="1 year" {% if d351.radiobutton3_5_1 == "1 year" %}checked{% endif %}>1 year<br>
+  <input type="radio" name="radiobutton3_5_1" value="2 year" {% if d351.radiobutton3_5_1 == "2 year" %}checked{% endif %}>2 year<br>
+  <input type="radio" name="radiobutton3_5_1" value="3 year" {% if d351.radiobutton3_5_1 == "3 year" %}checked{% endif %}>3 year<br>
+  <input type="radio" name="radiobutton3_5_1" value="4 year" {% if d351.radiobutton3_5_1 == "4 year" %}checked{% endif %}>4 year<br>
+  <input type="radio" name="radiobutton3_5_1" value="5 year" {% if d351.radiobutton3_5_1 == "5 year" %}checked{% endif %}>5 year<br>
+</div>
+
+     <div class="mb-3">
+  <label for="List the  actual  activities under each MOU  and web -links year-wise" class="form-label">List the  actual  activities under each MOU  and web -links year-wise</label>
+  <input type="text" class="form-control" id="List the  actual  activities under each MOU  and web -links year-wise" name="List_the_actual_activities_under_each_MOU_and_web_inks_year_wise" value="{{ d351.List_the_actual_activities_under_each_MOU_and_web_inks_year_wise }}">
+</div>
+
+<div class="mb-3">
+  <label for="Link to the relevant document" class="form-label">Link to the relevant document</label>
+  <input type="url" class="form-control" id="Link to the relevant document" name="Link_to_the_relevant_document" value="{{ d351.Link_to_the_relevant_document }}">
+</div>
+
+<div class="col-md-12 text-center">
+    <button type="submit" class="btn btn-primary">Update</button></div>
+</form>
+</div><br>
+<div style="display: flex; justify-content: center;">
+    <a class="btn btn-primary" href="{% url '351details' %}" role="button">Go Back</a>
+</div>
+</body>
+</html>

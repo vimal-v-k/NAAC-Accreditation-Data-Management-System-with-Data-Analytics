@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+     <div style="text-align: center;">
+{% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}style="color: red">{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+</div>
+<div class="container mt-5">
+<form method="POST">
+    {% csrf_token %}
+<h3  style=" text-shadow: 1px 1px 1px #000; ">3.3.2 Number of books and chapters in edited volumes/books published and papers  published in national/ international conference proceedings per teacher during last five year</h3>
+
+    <div class="mb-3">
+  <label for="Name of the teacher" class="form-label">Name of the teacher</label>
+  <input type="text" class="form-control" id="Name of the teacher" name="Name_of_the_teacher">
+</div>
+
+<div class="mb-3">
+  <label for="Title of the book/chapters  published" class="form-label">Title of the book/chapters  published</label>
+  <input type="text" class="form-control" id="Title of the book/chapters  published" name="Title_of_the_book_chapters_published">
+</div>
+
+<div class="mb-3">
+  <label for="Title of the paper" class="form-label">Title of the paper</label>
+  <input type="text" class="form-control" id="Title of the paper" name="Title_of_the_paper">
+</div>
+
+<div class="mb-3">
+  <label for="Title of the proceedings of the conference" class="form-label">Title of the proceedings of the conference</label>
+  <input type="text" class="form-control" id="Title of the proceedings of the conference" name="Title_of_the_proceedings_of_the_conference">
+</div>
+
+<div class="mb-3">
+  <label for="Name of the conference" class="form-label">Name of the conference</label>
+  <input type="text" class="form-control" id="Name of the conference" name="Name_of_the_conference">
+</div>
+
+<div class="mb-3">
+    <input type="radio" id="National " name="radiobutton3.3.2" value="National ">
+<label for="National ">National </label><br><br>
+        <input type="radio" id="International" name="radiobutton3.3.2"  value="International">
+<label for="International">International</label><br>
+</div>
+
+<div class="mb-3">
+  <label for="Year of publication" class="form-label">Year of publication</label>
+  <input type="date" class="form-control" id="Year of publication" name="Year_of_publication">
+</div>
+
+    <div class="mb-3">
+  <label for="IISBN number of the proceeding" class="form-label">ISBN number of the proceeding</label>
+  <input type="number" minlength="13" class="form-control" id="ISBN number of the proceeding" name="ISBN_number_of_the_proceeding">
+</div>
+
+    <div class="mb-3">
+  <label for="Affiliating Institute at the time of publication " class="form-label">Affiliating Institute at the time of publication </label>
+  <input type="text" class="form-control" name="Affiliating_Institute_at_the_time_of_publication">
+</div>
+
+    <div class="mb-3">
+  <label for="Name of the publisher" class="form-label">Name of the publisher</label>
+  <input type="text" class="form-control" id="Name of the publisher" name="Name_of_the_publisher">
+</div>
+
+<div class="col-md-12 text-center">
+    <button type="submit" class="btn btn-primary">Upload</button>
+    <a class="btn btn-primary" href="{% url 'view' %}" role="button">Go Back</a>
+
+</div>
+</form>
+</div>
+
+</body>
+</html>

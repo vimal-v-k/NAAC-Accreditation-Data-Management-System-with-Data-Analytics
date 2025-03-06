@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Project Details</title>
+</head>
+<body>
+    <h1>Details between {{ start_date }} and {{ end_date }}</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name of Research Project Endowment</th>
+                <th>Name of Principal Investigator/Co-Investigator</th>
+                <th>Department of Principal Investigator</th>
+                <th>Year of Award</th>
+                <th>Amount Sanctioned</th>
+                <th>Duration of the Project</th>
+                <th>Name of Funding Agency</th>
+                <th>Government/Non-Government</th>
+                <th>Uploaded by</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for project in projects %}
+            <tr>
+                <td>{{ project.Name_of_the_research_project_endowment }}</td>
+                <td>{{ project.Name_of_the_Principal_Investigator_Co_investigator }}</td>
+                <td>{{ project.Department_of_Principal_Investigator }}</td>
+                <td>{{ project.Year_of_Award }}</td>
+                <td>{{ project.Amount_Sanctioned }}</td>
+                <td>{{ project.Duration_of_the_project }}</td>
+                <td>{{ project.Name_of_the_Funding_Agency }}</td>
+                <td>{{ project.Government_non_Government }}</td>
+                <td>{{ project.Uploaded_by }}</td>
+            </tr>
+            {% endfor %}
+                <a href="{% url '311exportfilter' %}" class="btn btn-primary" role="button" >Download</a>
+
+        </tbody>
+    </table>
+</body>
+</html>

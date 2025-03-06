@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>3_2_2 Data</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+       <style>
+      table {
+         border-collapse: collapse;
+      }
+      th, td {
+         border: 1px solid black;
+         padding: 8px;
+      }
+   </style>
+</head>
+<body>
+    <h1>Details between {{ start_date }} and {{ end_date }}</h1>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Name of the MoU / Collaboration / linkage</th>
+      <th>Name of the collaborating agency / institution / industry / corporate house with whom the MoU / collaboration / linkage is made, with contact details</th>
+      <th>Year of signing MoU / collaboration / linkage</th>
+      <th>Duration of MoU / collaboration / linkage</th>
+      <th>List the  actual  activities under each MOU  and web -links year-wise</th>
+      <th>Link to the relevant document</th>
+                <th>Options</th>
+
+    </tr>
+  </thead>
+    {% for row in 351projects %}
+      <tr>
+        <td>{{ row.Name_of_the_MoU_Collaboration_linkage }}</td>
+        <td>{{ row.Name_of_the_collaborating_agency_institution_industry_corporate_house_with_whom_the_MoU_collaboration_linkage_is_made_with_contact_details }}</td>
+        <td>{{ row.Year_of_signing_MoU_collaboration_linkage }}</td>
+        <td>{{ row.radiobutton3_5_1 }}</td>
+        <td>{{ row.List_the_actual_activities_under_each_MOU_and_web_inks_year_wise }}</td>
+          <td><a href="{{ row.Link_to_the_relevant_document }}">{{ row.Link_to_the_relevant_document }}</a></td>
+      </tr>
+    {% endfor %}
+<a href="{% url '351exportfilter' %}" class="btn btn-primary" role="button" >Download</a>
+</table>
+<div style="display: flex; justify-content: center;">
+    <a class="btn btn-primary" href="{% url '351details' %}" role="button">Go Back</a>
+</div>
+</body>
+</html>

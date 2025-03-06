@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container mt-5">
+<form method="POST">
+        <input type="hidden" name="id" id="id" value="{{ d311.id }}">
+
+    {% csrf_token %}
+
+<div class="mb-3">
+  <label for="Title of paper" class="form-label">Title of paper</label>
+  <input type="text" class="form-control" id="Title of paper" name="Title_of_paper" value="{{ d331.Title_of_paper }}">
+</div>
+
+<div class="mb-3">
+  <label for="Name of the author/s" class="form-label">Name of the author/s</label>
+  <input type="text" class="form-control" id="Name of the author/s" name="Name_of_the_author/s" value="{{ d331.Name_of_the_authors }}">
+</div>
+
+<div class="mb-3">
+    <h3>Department of the teacher</h3>
+
+        <input type="radio" id="Automobile Engineering" name="radiobutton3.2.2"  value="Automobile Engineering" {% if d331.Department_of_the_teacher == "Automobile Engineering" %}checked{% endif %}>Automobile Engineering<br>
+
+    <input type="radio" id="Basic Science and Humanities" name="radiobutton3.2.2" value="Basic Science and Humanities" {% if d331.Department_of_the_teacher == "Basic Science and Humanities" %}checked{% endif %}>Basic Science and Humanities<br>
+
+    <input type="radio" id="Civil Engineering" name="radiobutton3.2.2" value="Civil Engineering" {% if d331.Department_of_the_teacher == "Civil Engineering" %}checked{% endif %}>Civil Engineering<br>
+
+        <input type="radio" id="Computer Science & Engineering" name="radiobutton3.2.2"  value="Computer Science & Engineering" {% if d331.Department_of_the_teacher == "Computer Science & Engineering" %}checked{% endif %}>Computer Science & Engineering<br>
+
+    <input type="radio" id="Electrical & Electronics Engineering" name="radiobutton3.2.2" value="Electrical & Electronics Engineering" {% if d331.Department_of_the_teacher == "Electrical & Electronics Engineering" %}checked{% endif %}>Electrical & Electronics Engineering<br>
+
+        <input type="radio" id="Electronics & Communication Engineering" name="radiobutton3.2.2"  value="Electronics & Communication Engineering" {% if d331.Department_of_the_teacher == "Electronics & Communication Engineering" %}checked{% endif %}>Electronics & Communication Engineering<br>
+
+    <input type="radio" id="Mechanical Engineering" name="radiobutton3.2.2"  value="Mechanical Engineering" {% if d331.Department_of_the_teacher == "Mechanical Engineering" %}checked{% endif %}>Mechanical Engineering<br>
+
+</div>
+
+<div class="mb-3">
+  <label for="Name of journal" class="form-label">Name of journal</label>
+  <input type="text" class="form-control" id="DDepartment of the teacher" name="Name_of_journal" value="{{ d331.Name_of_journal }}">
+</div>
+
+<div class="mb-3">
+  <label for="Year of publication" class="form-label">Year of publication</label>
+  <input type="date" class="form-control" id="Year of publication" name="Year_of_publication" value="{{ d331.Year_of_publication|date:'Y-m-d'  }}">
+</div>
+
+<div class="mb-3">
+  <label for="ISSN number" class="form-label">ISSN number</label>
+  <input type="number" minlength="8" class="form-control" id="ISSN number" name="ISSN_number" value="{{ d331.ISSN_number }}">
+</div>
+
+<div class="mb-3">
+    <h3>Link to the recognition in UGC enlistment of the Journal /Digital Object Identifier (doi) number</h3>
+<div class="mb-3">
+  <label for="Link to website of the Journal" class="form-label">Link to website of the Journal</label>
+  <input type="url" class="form-control" id="Link to website of the Journal" name="Link_to_website_of_the_Journal" value="{{ d331.Link_to_website_of_the_Journal }}">
+</div>
+
+<div class="mb-3">
+  <label for="Link to article / paper / abstract of the article" class="form-label">Link to article / paper / abstract of the article</label>
+  <input type="url" class="form-control" id="Link to article / paper / abstract of the article" name="Link_to_article_paper_abstract_of_the_article" value="{{ d331.Link_to_article_paper_abstract_of_the_article }}">
+</div>
+</div>
+<div class="mb-3">
+<h3>Is it listed in UGC Care list</h3>
+    <input type="radio" id="YES" name="radiobutton3.2.2.1" value="YES" {% if d331.Is_it_listed_in_UGC_Care_list == "YES" %}checked{% endif %}>YES<br>
+        <input type="radio" id="NO" name="radiobutton3.2.2.1"  value="NO" {% if d331.Is_it_listed_in_UGC_Care_list == "NO" %}checked{% endif %}>NO<br>
+</div>
+<div class="col-md-12 text-center">
+    <button type="submit" class="btn btn-primary">Update</button></div>
+</form>
+</div>
+<div style="display: flex; justify-content: center;">
+    <a class="btn btn-primary" href="{% url '331details' %}" role="button">Go Back</a>
+</div>
+</body>
+</html>

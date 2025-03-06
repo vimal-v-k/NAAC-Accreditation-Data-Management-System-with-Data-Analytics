@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("https://picsum.photos/1920/1080");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 2em;
+            border-radius: 1em;
+            box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+        }
+
+        label {
+            margin-right: 1em;
+        }
+
+        input[type="radio"] {
+            margin-right: 0.5em;
+        }
+
+        input[type="submit"] {
+            margin-top: 1em;
+            padding: 0.5em 1em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #3E8E41;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form method="POST" action="{% url 'deptview' %}">
+            {% csrf_token %}
+            <div class="mb-3">
+                <h2>SEARCH BY</h2>
+                <input type="radio" id="financial" name="yeartypes" value="financial">
+                <label for="financial">Financial Year </label><br><br>
+                <input type="radio" id="academic" name="yeartypes" value="academic">
+                <label for="academic">Academic Year</label><br>
+            </div>
+            <div class="mb-3">
+                <h2>Year</h2>
+                <input type="radio" id="2018" name="years" value="2018">
+                <label for="2018">2018</label><br><br>
+                <input type="radio" id="2019" name="years" value="2019">
+                <label for="2019">2019</label><br>
+                <input type="radio" id="2020" name="years" value="2020">
+                <label for="2020">2020</label><br>
+                <input type="radio" id="2021" name="years" value="2021">
+                <label for="2021">2021</label><br><br>
+                <input type="radio" id="2022" name="years" value="2022">
+                <label for="2022">2022</label><br>
+                <input type="radio" id="2023" name="years" value="2023">
+                <label for="2023">2023</label><br>
+            </div>
+            <input type="submit" value="View">
+        </form>
+    </div>
+</body>
+</html>

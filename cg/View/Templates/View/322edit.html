@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container mt-5">
+<form method="POST" >
+ <input type="hidden" name="id" id="id" value="{{ d322.id }}">
+    {% csrf_token %}
+
+<div class="mb-3">
+  <label for="Year" class="form-label">Year</label>
+  <input type="date" class="form-control" id="Year" name="Year" value="{{ d322.Year|date:'Y-m-d'  }}">
+</div>
+
+<div class="mb-3">
+  <label for="Name of the workshop/ seminar/ conference" class="form-label">Name of the workshop/ seminar/ conference</label>
+  <input type="text" class="form-control" id="Name of the workshop/ seminar/ conference" name="Name_of_the_workshop_seminar_conference" value="{{ d322.Name_of_the_workshop_seminar_conference }}">
+</div>
+
+<div class="mb-3">
+  <label for="Number of Participants" class="form-label">Number of Participants</label>
+  <input type="number" class="form-control" id="Number of Participants" name="Number_of_Participants" value="{{ d322.Number_of_Participants }}">
+</div>
+
+<div class="mb-3">
+  <label for="Date From" class="form-label">Date From </label>
+  <input type="date" class="form-control" id="Date From" name="Date_From" value="{{ d322.Date_From|date:'Y-m-d'  }}">
+    <label for="Date To" class="form-label">Date To</label>
+    <input type="date" class="form-control" id="Date To" name="Date_To" value="{{ d322.Date_To|date:'Y-m-d' }}">
+</div>
+
+    <div class="mb-3">
+  <label for="Link to the Activity report on the website" class="form-label">Link to the Activity report on the website</label>
+  <input type="url" class="form-control" id="Link to the Activity report on the website" name="Link_to_the_Activity_report_on_the_website" value="{{ d322.Link_to_the_Activity_report_on_the_website }}">
+</div>
+
+<div class="col-md-12 text-center">
+    <button type="submit" class="btn btn-primary">Update</button></div>
+</form>
+</div>
+<div style="display: flex; justify-content: center;">
+    <a class="btn btn-primary" href="{% url '322details' %}" role="button">Go Back</a>
+</div>
+</body>
+</html>
